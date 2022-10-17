@@ -1,5 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Mono", helvetica, serif;
+}
+
 body {
   background-color: #faf3dd;
+  font-family: Inter, helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
 header {
@@ -11,10 +30,20 @@ header {
   margin: 0 auto;
 }
 
+.home-title {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
 nav a {
   text-align: center;
   text-decoration: none;
   color: #fff;
+  padding: 35px;
+}
+
+main img {
+  box-sizing: border-box;
 }
 
 nav a:hover {
@@ -26,6 +55,10 @@ nav a:hover {
 .join {
   background-color: #0b3954;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover,
@@ -43,10 +76,19 @@ nav a:hover {
 
 .msg {
   background-color: #43563f;
+  line-height: 1.5em;
+  padding: 35px;
+}
+
+.msg p {
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
 footer {
   background-color: #43563f;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer p {
@@ -61,9 +103,17 @@ footer a:hover {
   text-decoration: underline;
 }
 
+footer .social img {
+  padding-top: 15px;
+}
+
 .icon,
 .logo {
   width: 80px;
+}
+
+.icon {
+  padding-top: 10px;
 }
 
 #hero-msg h1,
@@ -73,6 +123,16 @@ footer a:hover {
 
 .button-box {
   text-align: center;
+}
+
+.card-img {
+  border: 10px solid black;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
 }
 
 main section {
